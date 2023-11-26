@@ -1,0 +1,180 @@
+<html>
+<body>
+    <h1>Calculators</h1>
+    <div>
+        <h2>
+            Triangle area calculator by three sides
+        </h2>
+        <label>
+            side A: 
+            <input type="number" id="sideA1"></label><br>
+        <label>
+            side B: 
+            <input type="number" id="sideB1"></label><br>
+        <label>
+            side C: 
+            <input type="number" id="sideC1"></label><br><br>
+        <button onclick="CalculateBySides()">
+            Calculate
+        </button>
+        <p>
+            Triangle area: 
+            <span id="Result1">
+            </span>
+        </p>
+    </div>
+    <div>
+        <h2>
+            Calculator for area of a triangle by two sides and angle between them:
+        </h2>
+        <label>
+            side A: 
+            <input type="number" id="sideA2">
+        </label>
+        <br>
+        <label>
+            side B: 
+            <input type="number" id="sideB2">
+        </label>
+        <br>
+        <label>
+            angle between them: 
+            <input type="number" id="angle2">
+        </label>
+        <br><br>
+        <button onclick="CalculateBySidesAndAngle()">
+            calculate
+        </button>
+        <p>
+            Triangle area: 
+            <span id="Result2">
+            </span>
+        </p>
+    </div>
+    <div>
+        <h2>
+            Triangle area calculator by side and height
+        </h2>
+        <label>
+            side: 
+            <input type="number" id="side3-4">
+        </label><br>
+        <label>
+            heught: 
+            <input type="number" id="height3-4">
+        </label><br><br>
+        <button onclick="CalculateByHeight()">
+            calculate
+        </button>
+        <p>
+            Triangle area: 
+            <span id="Result3-4">
+            </span>
+        </p>
+    </div>
+    <div>
+        <h2>
+            Calculator for area of a triangle by three sides and radius of a circumscribed circle
+        </h2>
+        <label>
+            side A: 
+            <input type="number" id="sideA">
+        </label><br>
+        <label>
+            side B: 
+            <input type="number" id="sideB">
+        </label><br>
+        <label>
+            side C: 
+            <input type="number" id="sideC">
+        </label><br>
+        <label>
+            radius: 
+            <input type="number" id="radius">
+        </label>
+        <br><br>
+        <button onclick="СalculateBySidesAndRadius()">
+            calculate
+        </button>
+        <p>
+            Triangle area: 
+            <span id="Result5">
+            </span>
+        </p>
+    </div>
+    <div>
+        <h2>
+            Checking a number with a palindrome
+        </h2>
+        <label>
+            enter number: 
+            <input type="number" id="checknumber">
+        </label>
+        <br><br>
+        <button onclick="CheckPalindrome()">
+            check
+        </button>
+        <p id="Result6">
+
+        </p>
+    </div>
+    <div>
+        <h2>
+            Check for anagrams
+        </h2>
+        <label>
+            enter first word: 
+            <input type="text" id="word1">
+        </label><br>
+        <label>
+            enter second word: 
+            <input type="text" id="word2">
+        </label>
+        <br><br>
+        <button onclick="CheckAnagram()">
+            check
+        </button>
+        <p id="Result7">
+
+        </p>    
+    </div>
+    <div>
+        <h2>
+            Fibonacci number
+        </h2>
+        <label>
+            Enter the serial number: 
+            <input type="number" id="inputnumber">
+        </label>
+        <br><br>
+        <button onclick="CalculateFibonacci()">
+            check
+        </button>
+        <p id="Result8">
+
+        </p>    
+    </div>
+    <div>
+        <h2>
+            Checking whether it belongs to the Fibonacci sequence
+        </h2>
+        <label>
+            enter number: 
+            <input type="number" id="somenumber">
+        </label>
+        <br><br>
+        <button onclick="CheckFibonacci()">
+            check
+        </button>
+        <p id="Result9"></p>
+    </div>
+    <script src="CalculateBySides.js"></script>
+    <script src="CalculateBySidesAndAngle.js"></script>
+    <script src="CalculateByHeight.js"></script>
+    <script src="СalculateBySidesAndRadius.js"></script>
+    <script src="CheckPalindrome.js"></script>
+    <script src="CheckAnagram.js"></script>
+    <script src="CalculateFibonacci.js"></script>
+    <script src="CheckFibonacci.js"></script>
+</body>
+</html>
